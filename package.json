@@ -1,0 +1,11 @@
+{
+  "name": "Trainee",
+  "version": "4.0.0",
+  "description": "Trainee Management System",
+  "main": "Default.aspx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

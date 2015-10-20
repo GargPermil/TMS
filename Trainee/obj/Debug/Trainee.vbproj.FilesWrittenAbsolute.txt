@@ -1,0 +1,6 @@
+/media/permil/96DAF863DAF84153/Projects/Trainee/Trainee/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.vb
+/media/permil/96DAF863DAF84153/Projects/Trainee/Trainee/obj/Debug/Trainee.Resources.resources
+/media/permil/96DAF863DAF84153/Projects/Trainee/Trainee/obj/Debug/Trainee.dll
+/media/permil/96DAF863DAF84153/Projects/Trainee/Trainee/bin/itextsharp.dll
+/media/permil/96DAF863DAF84153/Projects/Trainee/Trainee/bin/itextsharp.pdfa.dll
+/media/permil/96DAF863DAF84153/Projects/Trainee/Trainee/bin/itextsharp.xtra.dll

@@ -1,0 +1,30 @@
+C:\Users\gyan singh\Desktop\Permil\Trainee\Trainee\bin\Trainee.dll
+C:\Users\gyan singh\Desktop\Permil\Trainee\Trainee\bin\Trainee.pdb
+C:\Users\gyan singh\Desktop\Permil\Trainee\Trainee\bin\Trainee.xml
+C:\Users\gyan singh\Desktop\Permil\Trainee\Trainee\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gyan singh\Desktop\Permil\Trainee\Trainee\obj\Debug\Trainee.Resources.resources
+C:\Users\gyan singh\Desktop\Permil\Trainee\Trainee\obj\Debug\Trainee.vbproj.GenerateResource.Cache
+C:\Users\gyan singh\Desktop\Permil\Trainee\Trainee\obj\Debug\Trainee.dll
+C:\Users\gyan singh\Desktop\Permil\Trainee\Trainee\obj\Debug\Trainee.xml
+C:\Users\gyan singh\Desktop\Permil\Trainee\Trainee\obj\Debug\Trainee.pdb
+D:\EXP & PROJ\Trainee\Trainee\bin\Trainee.dll
+D:\EXP & PROJ\Trainee\Trainee\bin\Trainee.pdb
+D:\EXP & PROJ\Trainee\Trainee\bin\Trainee.xml
+D:\EXP & PROJ\Trainee\Trainee\obj\Debug\Trainee.Resources.resources
+D:\EXP & PROJ\Trainee\Trainee\obj\Debug\Trainee.vbproj.GenerateResource.Cache
+D:\EXP & PROJ\Trainee\Trainee\obj\Debug\Trainee.dll
+D:\EXP & PROJ\Trainee\Trainee\obj\Debug\Trainee.xml
+D:\EXP & PROJ\Trainee\Trainee\obj\Debug\Trainee.pdb
+E:\Projects\Trainee\Trainee\bin\Trainee.dll
+E:\Projects\Trainee\Trainee\bin\Trainee.pdb
+E:\Projects\Trainee\Trainee\bin\Trainee.xml
+E:\Projects\Trainee\Trainee\obj\Debug\Trainee.Resources.resources
+E:\Projects\Trainee\Trainee\obj\Debug\Trainee.vbproj.GenerateResource.Cache
+E:\Projects\Trainee\Trainee\obj\Debug\Trainee.dll
+E:\Projects\Trainee\Trainee\obj\Debug\Trainee.xml
+E:\Projects\Trainee\Trainee\obj\Debug\Trainee.pdb
+E:\Projects\Trainee\Trainee\obj\Debug\Trainee.vbprojResolveAssemblyReference.cache
+E:\Projects\Trainee\Trainee\bin\itextsharp.dll
+E:\Projects\Trainee\Trainee\bin\itextsharp.pdfa.dll
+E:\Projects\Trainee\Trainee\bin\itextsharp.xtra.dll
+E:\Projects\Trainee\Trainee\bin\itextsharp.xml

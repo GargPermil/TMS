@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1A8127DC-9516-4766-8C50-E94B5669C399}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Trainee</RootNamespace>
+    <AssemblyName>Trainee</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Trainee.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AdditionalParameters>
+    </AdditionalParameters>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Trainee.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AdditionalParameters>
+    </AdditionalParameters>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>ref\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.Office" />
+    <Import Include="Microsoft.Office.Interop.Word" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ActiveTrainee.aspx" />
+    <Content Include="AddGuide.aspx" />
+    <Content Include="AssignGuide.aspx" />
+    <Content Include="AddProject.aspx" />
+    <Content Include="AssignProject.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Default1.aspx" />
+    <Content Include="DetailsConfirm.aspx" />
+    <Content Include="DetailsView.aspx" />
+    <Content Include="Guide.aspx" />
+    <Content Include="JoinTrainee.aspx" />
+    <Content Include="Login\ChangePassword.aspx" />
+    <Content Include="Login\ChangePasswordSuccess.aspx" />
+    <Content Include="Login\ChangeSecurityemail.aspx" />
+    <Content Include="Login\Login.aspx" />
+    <Content Include="Login\RecoveryPassword.aspx" />
+    <Content Include="Login\Register.aspx" />
+    <Content Include="PassiveTrainee.aspx" />
+    <Content Include="PrintCertificate.aspx" />
+    <Content Include="PrintJoinLetter.aspx" />
+    <Content Include="Projects.aspx" />
+    <Content Include="Search.aspx" />
+    <Content Include="SelectTrainee.aspx" />
+    <Content Include="VerifyCertificate.aspx" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\DATABASE.MDF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.designer.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs.aspx.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ActiveTrainee.aspx.designer.vb">
+      <DependentUpon>ActiveTrainee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ActiveTrainee.aspx.vb">
+      <DependentUpon>ActiveTrainee.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AddGuide.aspx.designer.vb">
+      <DependentUpon>AddGuide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddGuide.aspx.vb">
+      <DependentUpon>AddGuide.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AssignGuide.aspx.designer.vb">
+      <DependentUpon>AssignGuide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssignGuide.aspx.vb">
+      <DependentUpon>AssignGuide.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AddProject.aspx.designer.vb">
+      <DependentUpon>AddProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddProject.aspx.vb">
+      <DependentUpon>AddProject.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AssignProject.aspx.designer.vb">
+      <DependentUpon>AssignProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssignProject.aspx.vb">
+      <DependentUpon>AssignProject.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default1.aspx.designer.vb">
+      <DependentUpon>Default1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default1.aspx.vb">
+      <DependentUpon>Default1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetailsConfirm.aspx.designer.vb">
+      <DependentUpon>DetailsConfirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetailsConfirm.aspx.vb">
+      <DependentUpon>DetailsConfirm.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetailsView.aspx.designer.vb">
+      <DependentUpon>DetailsView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetailsView.aspx.vb">
+      <DependentUpon>DetailsView.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Enroll.aspx.designer.vb">
+      <DependentUpon>Enroll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Enroll.aspx.vb">
+      <DependentUpon>Enroll.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Guide.aspx.designer.vb">
+      <DependentUpon>Guide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Guide.aspx.vb">
+      <DependentUpon>Guide.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="JoinTrainee.aspx.designer.vb">
+      <DependentUpon>JoinTrainee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JoinTrainee.aspx.vb">
+      <DependentUpon>JoinTrainee.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login\ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login\ChangePasswordSuccess.aspx.designer.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\ChangePasswordSuccess.aspx.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login\ChangeSecurityemail.aspx.designer.vb">
+      <DependentUpon>ChangeSecurityemail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\ChangeSecurityemail.aspx.vb">
+      <DependentUpon>ChangeSecurityemail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login\RecoveryPassword.aspx.designer.vb">
+      <DependentUpon>RecoveryPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\RecoveryPassword.aspx.vb">
+      <DependentUpon>RecoveryPassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login\Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PassiveTrainee.aspx.designer.vb">
+      <DependentUpon>PassiveTrainee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PassiveTrainee.aspx.vb">
+      <DependentUpon>PassiveTrainee.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PrintCertificate.aspx.designer.vb">
+      <DependentUpon>PrintCertificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintCertificate.aspx.vb">
+      <DependentUpon>PrintCertificate.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PrintJoinLetter.aspx.designer.vb">
+      <DependentUpon>PrintJoinLetter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintJoinLetter.aspx.vb">
+      <DependentUpon>PrintJoinLetter.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Projects.aspx.designer.vb">
+      <DependentUpon>Projects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Projects.aspx.vb">
+      <DependentUpon>Projects.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.vb">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.vb">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SelectTrainee.aspx.designer.vb">
+      <DependentUpon>SelectTrainee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectTrainee.aspx.vb">
+      <DependentUpon>SelectTrainee.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerifyCertificate.aspx.designer.vb">
+      <DependentUpon>VerifyCertificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerifyCertificate.aspx.vb">
+      <DependentUpon>VerifyCertificate.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Login\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="App_Data\Database_log.ldf">
+      <DependentUpon>DATABASE.MDF</DependentUpon>
+    </Content>
+    <Content Include="CSS\StyleSheet.css" />
+    <Content Include="Enroll.aspx" />
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51352</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

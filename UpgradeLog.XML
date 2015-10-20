@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trainee">
+</Property><Property Name="Solution File" Value="D:\EXP &amp; PROJ\Trainee\Trainee.sln">
+</Property><Property Name="User Options File" Value="D:\EXP &amp; PROJ\Trainee\Trainee.suo">
+</Property><Property Name="Date" Value="Tuesday, June 30, 2015">
+</Property><Property Name="Time" Value="14:18 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Trainee.sln" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trainee.suo" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee.suo">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Trainee.vbproj" Description="Project file successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\Trainee.vbproj">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Trainee.vbproj.user" Description="Project user file successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\Trainee.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\AboutUs.aspx.designer.vb" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\AboutUs.aspx.designer.vb">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\AboutUs.aspx.vb" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\AboutUs.aspx.vb">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Default.aspx.vb" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\Default.aspx.vb">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Default.aspx.designer.vb" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\Default.aspx.designer.vb">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Enroll.aspx.designer.vb" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\Enroll.aspx.designer.vb">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Enroll.aspx.vb" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\Enroll.aspx.vb">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\My Project\AssemblyInfo.vb" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\My Project\Application.Designer.vb" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\My Project\Resources.Designer.vb" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\My Project\Settings.Designer.vb" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Site1.Master.designer.vb" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\Site1.Master.designer.vb">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Site1.Master.vb" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\Site1.Master.vb">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\My Project\Application.myapp" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\My Project\Settings.settings" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Default.aspx" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\Default.aspx">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Web.config" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\Web.config">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\AboutUs.aspx" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\AboutUs.aspx">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\App_Data\Database.mdf" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\App_Data\Database.mdf">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\App_Data\Database_log.ldf" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\App_Data\Database_log.ldf">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\CSS\StyleSheet.css" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\CSS\StyleSheet.css">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Enroll.aspx" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\Enroll.aspx">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Site1.Master" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\Site1.Master">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\My Project\Resources.resx" Description="File successfully backed up as D:\EXP &amp; PROJ\Trainee\Backup\Trainee\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Trainee.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trainee" Source="Trainee\Trainee.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trainee.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trainee.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trainee" Source="Trainee\Trainee.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,111 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="Trainee.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link type="text/css" href="/CSS/StyleSheet.css" rel="Stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="HeadPart">
+            <div class="title">
+                <h1>
+                    Trainee Management System</h1>
+            </div>
+            <div class="login">
+                <asp:LoginView ID="LoginView1" runat="server">
+                    <AnonymousTemplate>
+                        [ <a href="~/Login/Login.aspx" id="HeadLoginStatus" runat="server">Admin Log In</a>
+                        ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold">
+                            <asp:LoginName ID="HeadLoginName" runat="server" />
+                        </span>! [
+                        <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out"
+                            LogoutPageUrl="~/" />
+                        ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="menu">
+                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" BackColor="#6600FF"
+                    RenderingMode="List" ForeColor="White" BorderColor="White" BorderStyle="Solid"
+                    BorderWidth="1px" Font-Size="Large">
+                    <StaticMenuItemStyle BackColor="#6666FF" BorderColor="White" BorderStyle="Solid"
+                        BorderWidth="1px" ForeColor="White" Height="22px" HorizontalPadding="20px" />
+                    <StaticHoverStyle BackColor="#FF3300" ForeColor="White" />
+                    <StaticSelectedStyle BackColor="#000000" ForeColor="White" />
+                    <Items>
+                        <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Default.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="About Us" Value="About Us" NavigateUrl="~/AboutUs.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Enroll" Value="Enroll" NavigateUrl="~/Enroll.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Details View" Value="Details View" NavigateUrl="~/SelectTrainee.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Verify Certificate" Value="Verify Certificate" NavigateUrl="~/VerifyCertificate.aspx"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="bodyPart">
+            <div style="display: inline-block; float: left; vertical-align: top;">
+                <asp:Panel ID="SubMenuPanel" runat="server">
+                    <div style="margin-right: 20px; margin-top: 25px;">
+                        <asp:Menu ID="Menu2" runat="server" Font-Size="Medium" RenderingMode="List">
+                            <StaticMenuItemStyle BackColor="#6600FF" ForeColor="White" 
+                                HorizontalPadding="14px" Width="120px" 
+                                BorderColor="White" BorderStyle="Solid" BorderWidth="1px" 
+                                VerticalPadding="7px" />
+                            <StaticHoverStyle BackColor="#FF6600" ForeColor="White" />
+                            <StaticSelectedStyle BackColor="#000000" ForeColor="White" />
+                            <DynamicMenuItemStyle BackColor="#FF3300" ForeColor="White" HorizontalPadding="10px"
+                                BorderColor="White" BorderStyle="Solid" BorderWidth="1px" VerticalPadding="7px"
+                                Width="115px" />
+                            <DynamicHoverStyle BackColor="#6600FF" ForeColor="White" />
+                            <DynamicSelectedStyle BackColor="#000000" ForeColor="White" />
+                            <Items>
+                                <asp:MenuItem Text="Trainee" Value="~/" NavigateUrl="~/" >
+                                    <asp:MenuItem Text="Search" Value="Search" NavigateUrl="~/Search.aspx" ></asp:MenuItem>
+                                    <asp:MenuItem Text="Active" Value="ActiveTrainee" NavigateUrl="~/ActiveTrainee.aspx">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Passive" Value="PassiveTrainee" NavigateUrl="~/PassiveTrainee.aspx" >
+                                    </asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Projects" Value="Projects" NavigateUrl="~/Projects.aspx">
+                                    <asp:MenuItem Text="Add" Value="AddProject" NavigateUrl="~/AddProject.aspx"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Guide" Value="Guide" NavigateUrl="~/Guide.aspx">
+                                    <asp:MenuItem Text="Add" Value="GuideAdd" NavigateUrl="~/AddGuide.aspx" />
+                                    <asp:MenuItem Text="Assign" Value="GuideAsign" NavigateUrl="~/AssignGuide.aspx" />
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Join Trainee" Value="JoinTrainee" NavigateUrl="~/JoinTrainee.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Assign Project" Value="AssignProject" NavigateUrl="~/AssignProject.aspx">
+                                </asp:MenuItem>
+                                <%--<asp:MenuItem Text="Print Joining Letters" Value="PrintJoinLetter" NavigateUrl="~/PrintJoinLetter.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Print Certificate" Value="PrintCertificate" NavigateUrl="~/PrintCertificate.aspx">
+                                </asp:MenuItem>--%>
+                                <asp:MenuItem Text="User" Value="~/Login/Register.aspx" NavigateUrl="">
+                                    <asp:MenuItem Text="Change Password" Value="ChangePassword" NavigateUrl="~/Login/ChangePassword.aspx" />
+                                    <asp:MenuItem Text="Update Info" Value="UpdateInfo" NavigateUrl="~/Login/ChangeSecurityemail.aspx" />
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Create User" Value="UserRegister" NavigateUrl="~/Login/Register.aspx">
+                                </asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+                    </div>
+                </asp:Panel>
+            </div>
+            <div id="WinContent" runat="server">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

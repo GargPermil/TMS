@@ -1,0 +1,140 @@
+﻿body   
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.HeadPart
+{
+	background-color:Blue;
+	height:95px;
+	color:White;
+	top:0px;
+	left:0px;
+	padding: 0px 0px 0px 30px	
+}
+.menu
+{
+    position:absolute;
+    top:60px;
+    left:30px;
+}
+
+.bodyPart
+{
+	background-color:#CCFFCC;
+	padding:5px 8px 8px 30px;
+	min-height:500px;
+	display:block;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.login
+{
+    display : block;
+    float:right;
+    text-align:right;
+    margin : 30px 20px;
+}
+
+.login a:link
+{
+    color:White;
+}
+
+.login a:visited
+{
+    color:White;
+}
+
+.login a:hover
+{
+    color:White;
+}
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    min-width:400px;
+    width:90%;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 0px 4px;
+}
+
+legend h1
+{
+    margin:0px;
+}
+
+/* ************************************ */
+/* *************Login ***************** */
+/* ************************************ */
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    width:80%;
+}
+
+.loginDisplay a:link
+{
+    color: Blue;
+}
+
+.loginDisplay a:visited
+{
+    color: Blue;
+}
+
+.loginDisplay a:hover
+{
+    color: Blue;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    margin-left:10;
+}
