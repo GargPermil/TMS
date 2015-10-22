@@ -28,3 +28,14 @@ E:\Projects\Trainee\Trainee\bin\itextsharp.dll
 E:\Projects\Trainee\Trainee\bin\itextsharp.pdfa.dll
 E:\Projects\Trainee\Trainee\bin\itextsharp.xtra.dll
 E:\Projects\Trainee\Trainee\bin\itextsharp.xml
+C:\Users\PERMIL GARG\Documents\GitHub\TMS\Trainee\bin\Trainee.dll
+C:\Users\PERMIL GARG\Documents\GitHub\TMS\Trainee\bin\Trainee.pdb
+C:\Users\PERMIL GARG\Documents\GitHub\TMS\Trainee\bin\Trainee.xml
+C:\Users\PERMIL GARG\Documents\GitHub\TMS\Trainee\bin\itextsharp.dll
+C:\Users\PERMIL GARG\Documents\GitHub\TMS\Trainee\bin\itextsharp.xml
+C:\Users\PERMIL GARG\Documents\GitHub\TMS\Trainee\obj\Debug\Trainee.vbprojResolveAssemblyReference.cache
+C:\Users\PERMIL GARG\Documents\GitHub\TMS\Trainee\obj\Debug\Trainee.Resources.resources
+C:\Users\PERMIL GARG\Documents\GitHub\TMS\Trainee\obj\Debug\Trainee.vbproj.GenerateResource.Cache
+C:\Users\PERMIL GARG\Documents\GitHub\TMS\Trainee\obj\Debug\Trainee.dll
+C:\Users\PERMIL GARG\Documents\GitHub\TMS\Trainee\obj\Debug\Trainee.xml
+C:\Users\PERMIL GARG\Documents\GitHub\TMS\Trainee\obj\Debug\Trainee.pdb
